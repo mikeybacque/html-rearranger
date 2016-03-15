@@ -7,7 +7,7 @@ $('body').append($ulBelow);
 $('body').append('<h1>Above ground veggies</h1>');
 $('body').append($ulAbove);
 
-$('ul li').each(function (){
+$('ul li').each(function () {
   if ($(this).hasClass('below')) {
     $ulBelow.append($(this));
   } else {
